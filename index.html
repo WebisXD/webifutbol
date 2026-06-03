@@ -1,68 +1,79 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>WebiFutbol</title>
+
 <style>
 body{
-  background:#000;
-  color:#fff;
-  font-family:Arial;
-  max-width:900px;
-  margin:auto;
+    background:#111;
+    color:white;
+    font-family:Arial,sans-serif;
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
 }
+
 h1{
-  color:#00aaff;
-  text-align:center;
+    text-align:center;
+    color:#00aaff;
 }
-.evento{
-  border-bottom:1px solid #00aaff;
-  padding:14px;
-}
-.hora{
-  color:#aaa;
-  font-size:14px;
-}
+
 .partido{
-  font-size:18px;
-  font-weight:bold;
+    background:#1c1c1c;
+    margin:15px 0;
+    padding:20px;
+    border-radius:10px;
 }
-a{
-  color:white;
-  background:#00aaff;
-  padding:6px 10px;
-  text-decoration:none;
-  display:inline-block;
-  margin-top:8px;
+
+.boton{
+    display:inline-block;
+    background:#00aaff;
+    color:white;
+    text-decoration:none;
+    padding:10px 20px;
+    border-radius:5px;
+    margin-top:10px;
+}
+
+.boton:hover{
+    background:#0088cc;
+}
+
+.anuncio{
+    border:1px dashed #555;
+    padding:20px;
+    text-align:center;
+    margin:20px 0;
 }
 </style>
 </head>
 <body>
 
-<h1>WEBIFUTBOL</h1>
+<h1>⚽ WEBIFUTBOL ⚽</h1>
 
-<div class="evento">
-  <div class="hora">03/06/26 - 13:00</div>
-  <div class="partido">Denmark vs DR Congo</div>
-  <a href="partido.html">VER PARTIDO</a>
+<div class="anuncio">
+ESPACIO PUBLICITARIO
 </div>
 
-<div class="evento">
-  <div class="hora">03/06/26 - 13:45</div>
-  <div class="partido">Netherlands vs Algeria</div>
-  <a href="partido.html">VER PARTIDO</a>
+<div class="partido">
+<h2>PARTIDO EN VIVO</h2>
+<p>Haz clic para ver la transmisión.</p>
+
+<a class="boton"
+href="http://20.230.61.62/partido.html">
+VER PARTIDO
+</a>
+
 </div>
 
-<div class="evento">
-  <div class="hora">03/06/26 - 13:45</div>
-  <div class="partido">Poland vs Nigeria</div>
-  <a href="partido.html">VER PARTIDO</a>
-</div>
-
-<div class="evento">
-  <div class="hora">03/06/26 - 13:45</div>
-  <div class="partido">Luxembourg vs Italy</div>
-  <a href="partido.html">VER PARTIDO</a>
+<div class="anuncio">
+ESPACIO PUBLICITARIO
 </div>
 
 </body>
 </html>
+```
+
